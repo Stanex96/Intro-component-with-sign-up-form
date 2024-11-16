@@ -1,0 +1,115 @@
+@font-face {
+    font-family: poppins;
+    src: url(./Poppins-Regular.ttf);
+}
+
+body{
+    font-family: poppins;
+    display: flex;
+    background-image: url(./bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#text{
+    font-size: 16px;
+    color: white;
+    margin-right: 13.3%;
+}
+
+#leftzone{
+    width: 450px;
+    height: 500px;
+}
+
+#purplezone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 45px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    margin-bottom: 2%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#purpletext{
+    color: white;
+    font-size: 12px;
+}
+
+#whitetext{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#whitezone{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+ul{
+    margin-right: 15%;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    width: 349px;
+    height: 50px;
+    background-color: white;
+    border: 0.5px solid hsl(248, 100%, 81%);
+    color: hsl(248, 100%, 81%);
+    font-size: 13px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-left: 7%;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#greenzone{
+    background-color: hsl(154, 59%, 51%);
+    width: 375px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#greentext{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+}
+
+#pubtext{
+    color: grey;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+#redtext{
+    font-size: 8.5px;
+    color: red;
+    font-weight: bold;
+}
